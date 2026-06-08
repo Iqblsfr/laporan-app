@@ -71,4 +71,67 @@ database/migrations
   <img width="1919" height="941" alt="Halaman Ubah Status" src="https://github.com/user-attachments/assets/59d60559-f38d-4483-9645-14fee02ff3ee" />
 
 
+## Struktur Folder Project
 
+```text
+laporan-app/
+│
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── ReportController.php
+│   │   │   ├── Controller.php
+│   │   │   ├── Api/
+│   │   │   │   └── ReportApiController.php
+│   │   │   └── Auth/
+│   │   │       ├── LoginController.php
+│   │   │       ├── RegisterController.php
+│   │   │       ├── ForgotPasswordController.php
+│   │   │       └── ResetPasswordController.php
+│   │   │
+│   │   └── Kernel.php
+│   │ 
+│   ├── Report.php
+│   └── User.php
+│
+├── bootstrap/
+├── config/
+│
+├── database/
+│   ├── migrations/
+│   │   ├── 2014_10_12_000000_create_users_table.php
+│   │   ├── 2014_10_12_100000_create_password_resets_table.php
+│   │   └── 2026_05_17_141033_create_reports_table.php
+│   │
+│   ├── factories/
+│   └── seeds/
+│
+├── public/
+│   ├── css/
+│   └── js/
+│
+├── resources/
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php
+│       │
+│       ├── reports/
+│       │   ├── index.blade.php
+│       │   ├── create.blade.php
+│       │   └── edit.blade.php
+│       │
+│       └── welcome.blade.php
+│
+├── routes/
+│   ├── web.php
+│   └── api.php
+│
+├── storage/
+├── tests/
+│
+├── laporan_app.sql
+├── composer.json
+├── package.json
+├── artisan
+├── README.md
+└── .env.example
