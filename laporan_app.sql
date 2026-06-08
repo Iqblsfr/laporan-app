@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 08, 2026 at 04:14 PM
+-- Generation Time: Jun 08, 2026 at 05:44 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
@@ -76,9 +76,10 @@ CREATE TABLE `reports` (
 --
 
 INSERT INTO `reports` (`id`, `title`, `description`, `location`, `status`, `created_at`, `updated_at`) VALUES
-(2, 'Lampu Jalan Mati', 'Lampu jalan tidak menyala', 'Surabaya', 'pending', '2026-05-17 08:06:50', '2026-05-17 08:06:50'),
-(3, 'Jalan Rusak', 'Jalan berlubang besar', 'Surabaya', 'process', '2026-05-17 08:07:41', '2026-05-19 19:53:07'),
-(6, 'Jembatan Sempit', 'Jembatan tidak muat untuk dua motor', 'Surabaya', 'pending', '2026-05-30 10:22:31', '2026-05-30 10:23:21');
+(7, 'Jalan Rusak', 'Jalan berlubang besar', 'Surabaya', 'pending', '2026-06-08 08:31:28', '2026-06-08 08:31:28'),
+(8, 'Lampu Jalan Mati', 'Lampu jalan tidak menyala', 'Surabaya', 'done', '2026-06-08 08:31:47', '2026-06-08 08:34:20'),
+(9, 'Jembatan Sempit', 'Jembatan tidak muat untuk dua motor', 'Surabaya', 'process', '2026-06-08 08:32:26', '2026-06-08 08:34:35'),
+(10, 'Jembatan Tersumbat', 'Air tergenang ke jalanan', 'Surabaya', 'pending', '2026-06-08 08:34:02', '2026-06-08 08:34:02');
 
 -- --------------------------------------------------------
 
@@ -139,7 +140,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `reports`
 --
 ALTER TABLE `reports`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users`
