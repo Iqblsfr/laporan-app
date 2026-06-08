@@ -28,11 +28,13 @@ membantu masyarakat melaporkan keluhan seperti:
 ## Fitur
 
 ### Masyarakat
+http://127.0.0.1:8000/reports/create
 
 - Input laporan
 - Kirim laporan
 
 ### Admin
+http://127.0.0.1:8000/reports/
 
 - Halaman Admin
 - Kelola laporan
@@ -59,3 +61,13 @@ Migration tersedia pada folder:
 database/migrations
 
 ## Screenshot
+- Halaman tambah laporan masyarakat
+  <img width="1919" height="947" alt="Halaman Tambah Laporan Masyarakat" src="https://github.com/user-attachments/assets/2d51c91c-8793-410f-bf04-19fa4719da58" />
+
+- Halaman kelola laporan admin
+  <img width="1913" height="942" alt="Halaman Kelola Laporan Admin" src="https://github.com/user-attachments/assets/b7f53dc2-007c-4cf1-af7f-6dc0b65ab3b3" />
+
+- Halaman ubah status
+  <img width="1917" height="943" alt="Halaman Ubah Status" src="https://github.com/user-attachments/assets/922216b1-a26e-49c6-9210-b598838852a3" />
+
+
