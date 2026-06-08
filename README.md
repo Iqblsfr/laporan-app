@@ -6,7 +6,7 @@ Aplikasi berbasis web dengan framework Laravel 5.4.36. Digunakan untuk membuat l
 Nama : Iqbal Safri Jalla,
 NIM  : 2505101060L,
 Kelas: TIF/6A
-
+ 
 ## Deskripsi
 
 Aplikasi berbasis Laravel 5.4 yang digunakan untuk
