@@ -135,3 +135,11 @@ laporan-app/
 ├── artisan
 ├── README.md
 └── .env.example
+
+---
+## Review
+* NAMA: SHABILLA BERLIANA HARYONO
+* NIM: 2305101149
+
+Pendapat dan saran untuk proyek aplikasi ini, yaitu :
+- Tambahkan fitur catatan tambahan atau keterangan dimana apabila keluhan tersebut pending agar masyarakat bisa melihat progres dari keluhannya
